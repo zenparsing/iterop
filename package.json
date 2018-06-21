@@ -1,0 +1,24 @@
+{
+  "name": "iterop",
+  "version": "0.1.0",
+  "description": "Simple iterator and async iterator operators",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenparsing/iterop.git"
+  },
+  "keywords": [
+    "iterator",
+    "async iterator"
+  ],
+  "homepage": "https://github.com/zenparsing/iterop",
+  "scripts": {
+    "test": "eslint src/** && node -r esm test/basics.js"
+  },
+  "dependencies": {
+    "esm": "^3.0.51"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
