@@ -1,6 +1,6 @@
 {
   "name": "iterop",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple iterator and async iterator operators",
   "license": "MIT",
   "repository": {

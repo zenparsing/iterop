@@ -21,12 +21,20 @@ npm install iterop
 
 ## API
 
-### `iterop(iterable)`
+### `iter(iterable)`
 
 Creates an `iterop` wrapper around an iterable or async iterable.
 
 ```js
 let iter = iterop([1, 2, 3]);
+```
+
+### `iter.async(iterable)`
+
+Creates an async `iterop` wrapper around an iterable or async iterable.
+
+```js
+let iter = await iterop.async([1, 2, 3]).forEach(x => console.log(x));
 ```
 
 ### `map(fn)`

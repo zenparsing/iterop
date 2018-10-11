@@ -25,6 +25,11 @@ async function main() {
     .forEach(gather());
   assert.deepEqual(result, [9, 16, 25]);
 
+  await iterop.async([1, Promise.resolve(2), 3])
+    .map(x => x * 2)
+    .forEach(gather());
+  assert.deepEqual(result, [2, 4, 6]);
+
   console.log('OK');
 }
 

@@ -1,6 +1,6 @@
 import * as sym from './symbols.js';
 
-export class SyncIterOp {
+export class SyncIter {
   constructor(source) {
     this._source = source;
   }
